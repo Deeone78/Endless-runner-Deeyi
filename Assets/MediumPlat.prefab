@@ -342,7 +342,7 @@ GameObject:
   - component: {fileID: 3858226139848701150}
   m_Layer: 8
   m_Name: MediumPlat
-  m_TagString: Untagged
+  m_TagString: CleanUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
