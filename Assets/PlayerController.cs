@@ -15,18 +15,19 @@ public class PlayerController : MonoBehaviour
     public float sprintSpeed = 10f;
 
     bool isOnGround = false;
-    
+    private Animator anim;
     Rigidbody2D playerObject;
     // Start is called before the first frame update
     void Start()
     {
+        anim = GetComponent<Animator>();
         playerObject = GetComponent<Rigidbody2D>();  
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        anim.SetFloat("Speed", Mathf.abs(movementValueX));
         /*if (Input.GetKeyDown(KeyCode.LeftShift))
         {
 
@@ -49,9 +50,9 @@ public class PlayerController : MonoBehaviour
 
 
 
-        float movementValueX = Input.GetAxis("Horizontal");
-        float movementValueY = Input.GetAxis("Vertical");
-       // float movementValueX = 1.0f;
+        //float movementValueX = Input.GetAxis("Horizontal");
+        //float movementValueY = Input.GetAxis("Vertical");
+        float movementValueX = 1.0f;
         playerObject.velocity = new Vector2(movementValueX * moveSpeed, playerObject.velocity.y);
 
         isOnGround = Physics2D.OverlapCircle(groundChecker.transform.position,1.0f,whatIsGround);
