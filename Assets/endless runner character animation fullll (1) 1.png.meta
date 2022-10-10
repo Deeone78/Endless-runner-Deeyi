@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 0bce4d61d9e2de34daba1da89df59264
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: endless runner character animation fullll (1) 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 113.25
+        height: 147
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ad079218636df469ffa30df8b5e365
+      internalID: 921568874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endless runner character animation fullll (1) 1_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 0
+        width: 113.25
+        height: 147
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15b7d45e9c47d24fbd5fe816101ce36
+      internalID: 1602360284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endless runner character animation fullll (1) 1_2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 0
+        width: 113.25
+        height: 147
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e6b23b5e544f5418d21070f7f6cc2e
+      internalID: 183596456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endless runner character animation fullll (1) 1_3
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 0
+        width: 109
+        height: 147
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590b5c21d24ccb845a9fe2a8441aabba
+      internalID: -1228575151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endless runner character animation fullll (1) 1_4
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 113
+        height: 147
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a6b96c0e8f2ff4cba17cbb32e527d9
+      internalID: 1439471733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endless runner character animation fullll (1) 1_5
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 0
+        width: 113.25
+        height: 147
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a822e284995cd42b175c0a66277750
+      internalID: -1056376831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endless runner character animation fullll (1) 1_6
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 0
+        width: 113.25
+        height: 147
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18771cbb6dc193e4081cc1ac8fb5f1fc
+      internalID: -843939605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endless runner character animation fullll (1) 1_7
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 0
+        width: 113.25
+        height: 147
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7c1cf5a2920a84fa7b68acd758b00e
+      internalID: 1677862008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endless runner character animation fullll (1) 1_8
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 0
+        width: 113.25
+        height: 147
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7902c46503ba1944a7a8f109ea48905
+      internalID: 1415282939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endless runner character animation fullll (1) 1_9
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 0
+        width: 113.25
+        height: 147
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fae97a301408f4c99f8e2e7c822ef1
+      internalID: 1931265127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endless runner character animation fullll (1) 1_10
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 0
+        width: 113.25
+        height: 147
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a4a0613493de74585915febf8ac151
+      internalID: 1725480377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endless runner character animation fullll (1) 1_11
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 0
+        width: 113.25
+        height: 147
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a8a1ea1fa1c69458c305a894c3fbd5
+      internalID: -1937135789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endless runner character animation fullll (1) 1_12
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 0
+        width: 113.25
+        height: 147
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4c2856025b27e49b510c595f85f646
+      internalID: 1668035427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endless runner character animation fullll (1) 1_13
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 0
+        width: 113.25
+        height: 147
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a387fdf45cd7c4fb8574ea93e0414b
+      internalID: 2068134093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endless runner character animation fullll (1) 1_14
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 0
+        width: 113.25
+        height: 147
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96aa2f8298a1afa4dae5da26ba674730
+      internalID: 2142172454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endless runner character animation fullll (1) 1_15
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 0
+        width: 113.25
+        height: 147
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3fc1501e031a449ad1174b685cd321
+      internalID: 2031531826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endless runner character animation fullll (1) 1_16
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 0
+        width: 113.25
+        height: 147
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6957d7700c91ac4bbb6aaa937ddd682
+      internalID: 331979083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endless runner character animation fullll (1) 1_17
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 0
+        width: 113.25
+        height: 147
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f40171050f9ff4f96c6a99d8e23157
+      internalID: -594646011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endless runner character animation fullll (1) 1_18
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 0
+        width: 113.25
+        height: 147
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6bede00a77f50488fdc026ccf9c447
+      internalID: -785031515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endless runner character animation fullll (1) 1_19
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 0
+        width: 113.25
+        height: 147
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8466986c8fc62da4985fd51e2ace312c
+      internalID: -732912153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endless runner character animation fullll (1) 1_20
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 0
+        width: 113.25
+        height: 147
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed46796df5beebd43853bd2a789dba03
+      internalID: 1355499785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endless runner character animation fullll (1) 1_21
+      rect:
+        serializedVersion: 2
+        x: 2373
+        y: 0
+        width: 113.25
+        height: 147
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2d7851fc1382b43af24993990050fd
+      internalID: 148979127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endless runner character animation fullll (1) 1_22
+      rect:
+        serializedVersion: 2
+        x: 2486
+        y: 0
+        width: 113.25
+        height: 147
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468bead80a17da04fb7c49eb889426ea
+      internalID: -477517865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endless runner character animation fullll (1) 1_23
+      rect:
+        serializedVersion: 2
+        x: 2599
+        y: 0
+        width: 113.25
+        height: 147
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1bb6d8a16951b46b95a92f4a65dcd5
+      internalID: 1616142609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      endless runner character animation fullll (1) 1_11: -1937135789
+      endless runner character animation fullll (1) 1_6: -843939605
+      endless runner character animation fullll (1) 1_4: 1439471733
+      endless runner character animation fullll (1) 1_2: 183596456
+      endless runner character animation fullll (1) 1_17: -594646011
+      endless runner character animation fullll (1) 1_1: 1602360284
+      endless runner character animation fullll (1) 1_14: 2142172454
+      endless runner character animation fullll (1) 1_12: 1668035427
+      endless runner character animation fullll (1) 1_10: 1725480377
+      endless runner character animation fullll (1) 1_16: 331979083
+      endless runner character animation fullll (1) 1_9: 1931265127
+      endless runner character animation fullll (1) 1_3: -1228575151
+      endless runner character animation fullll (1) 1_0: 921568874
+      endless runner character animation fullll (1) 1_7: 1677862008
+      endless runner character animation fullll (1) 1_15: 2031531826
+      endless runner character animation fullll (1) 1_23: 1616142609
+      endless runner character animation fullll (1) 1_20: 1355499785
+      endless runner character animation fullll (1) 1_19: -732912153
+      endless runner character animation fullll (1) 1_21: 148979127
+      endless runner character animation fullll (1) 1_18: -785031515
+      endless runner character animation fullll (1) 1_5: -1056376831
+      endless runner character animation fullll (1) 1_22: -477517865
+      endless runner character animation fullll (1) 1_8: 1415282939
+      endless runner character animation fullll (1) 1_13: 2068134093
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
