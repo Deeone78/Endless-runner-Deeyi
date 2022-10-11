@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     public GameObject groundChecker;
 
     public LayerMask whatIsGround;
-    
+    public bool doubleJump;
     public float moveSpeed = 5f;
 
     public float sprintSpeed = 10f;
@@ -30,7 +30,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         //anim.SetFloat("Speed", Mathf.Abs(movementValueX));
-        anim.SetBool("IsOnGround" , isOnGround);
+        anim.SetBool("IsOnGround", isOnGround);
         /*if (Input.GetKeyDown(KeyCode.LeftShift))
         {
 
@@ -55,25 +55,46 @@ public class PlayerController : MonoBehaviour
 
         //float movementValueX = Input.GetAxis("Horizontal");
         //float movementValueY = Input.GetAxis("Vertical");
-        
+
         playerObject.velocity = new Vector2(movementValueX * moveSpeed, playerObject.velocity.y);
 
-        isOnGround = Physics2D.OverlapCircle(groundChecker.transform.position,1.0f,whatIsGround);
-        if (Input.GetKeyDown(KeyCode.Space) && isOnGround == true )
+        isOnGround = Physics2D.OverlapCircle(groundChecker.transform.position, 1.0f, whatIsGround);
+        if (Input.GetKeyDown(KeyCode.Space) && isOnGround == true)
         {
+            playerObject.velocity = new Vector2(playerObject.velocity.x, 0f);
+            playerObject.AddForce(new Vector2(0.0f, 100.0f * jumpHeight));
 
-            playerObject.AddForce(new Vector2 (0.0f, 100.0f*jumpHeight));
-        
         }
+        else if (Input.GetKeyDown(KeyCode.Space) && doubleJump) 
+        {
+            playerObject.velocity = new Vector2(playerObject.velocity.x, 0f);
+
+
+
+        }
+        
+
+
         if (transform.position.y <= -6)
         {
             Time.timeScale = 0.0f;
         }
-        
-        
 
+
+      
 
 
 
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+        {
+            if (collision.gameObject.tag == "PickUp")
+            {
+                Destroy(collision.gameObject);
+
+            }
+
+
+
+        }
 }

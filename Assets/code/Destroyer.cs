@@ -12,10 +12,15 @@ public class Destroyer : MonoBehaviour
             Destroy(collision.gameObject);
 
         }
-    
-                
-                
+        if (collision.gameObject.tag == "Pickup")
+        {
+            Destroy(collision.gameObject);
+
+        }
+
+
     }
+
     void Start()
     {
         
