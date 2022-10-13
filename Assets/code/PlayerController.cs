@@ -75,10 +75,10 @@ public class PlayerController : MonoBehaviour
         
 
 
-        if (transform.position.y <= -6)
+        /*if (transform.position.y <= -6)
         {
             Time.timeScale = 0.0f;
-        }
+        }*/
 
 
       
