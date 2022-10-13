@@ -5,12 +5,16 @@ using UnityEngine;
 public class PlayerGameOver : MonoBehaviour
 {
     public GameObject deathScreen;
+
+    public GameObject spawner;
+    
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "GameOver")
         {
             Destroy(collision.gameObject);
             Debug.Log("GAMEOVER");
+            spawner.SetActive(false);
             deathScreen.SetActive(true);
         }
 

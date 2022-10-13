@@ -5,12 +5,12 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float movementValueX = 2.0f;
-    public float jumpHeight = 100f;
+    public float jumpHeight = 25f;
     
     public GameObject groundChecker;
 
     public LayerMask whatIsGround;
-    public bool doubleJump;
+    public bool doubleJump = true;
     public float moveSpeed = 5f;
 
     public float sprintSpeed = 10f;
@@ -68,11 +68,19 @@ public class PlayerController : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.Space) && doubleJump) 
         {
             playerObject.velocity = new Vector2(playerObject.velocity.x, 0f);
+            Debug.Log('d') ;
+            playerObject.AddForce(new Vector2(0.0f, 100.0f * jumpHeight));
+            doubleJump = false;
+        }
+        
+        if (isOnGround == true)
+        {
+            doubleJump = true;
+
 
 
 
         }
-        
 
 
         /*if (transform.position.y <= -6)
