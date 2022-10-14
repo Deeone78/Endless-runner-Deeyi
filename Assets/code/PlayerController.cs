@@ -1,20 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
     public float movementValueX = 2.0f;
     public float jumpHeight = 25f;
-    
+    public Text scoreText;
     public GameObject groundChecker;
 
     public LayerMask whatIsGround;
     public bool doubleJump = true;
     public float moveSpeed = 5f;
+    float scoreTimer = 0f;
 
     public float sprintSpeed = 10f;
-
+    int score = 0;
     bool isOnGround = false;
     
     private Animator anim;
@@ -29,6 +31,13 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        scoreTimer += Time.deltaTime;
+        if (scoreTimer >=0.5f)
+        {
+            score++;
+            scoreTimer = 0f;
+        }
+        scoreText.text = "Score: " + score.ToString();
         //anim.SetFloat("Speed", Mathf.Abs(movementValueX));
         anim.SetBool("IsOnGround", isOnGround);
         /*if (Input.GetKeyDown(KeyCode.LeftShift))
@@ -98,8 +107,8 @@ public class PlayerController : MonoBehaviour
         {
             if (collision.gameObject.tag == "PickUp")
             {
+                score += 10;
                 Destroy(collision.gameObject);
-
             }
 
 
